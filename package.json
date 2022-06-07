@@ -57,6 +57,7 @@
     "@storybook/addon-actions": "^6.5.7",
     "@storybook/addon-essentials": "^6.5.7",
     "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-knobs": "^6.4.0",
     "@storybook/addon-links": "^6.5.7",
     "@storybook/builder-webpack5": "^6.5.7",
     "@storybook/jest": "^0.0.10",
@@ -69,6 +70,7 @@
     "babel-plugin-named-exports-order": "^0.0.2",
     "jest": "^27.5.1",
     "prop-types": "^15.8.1",
+    "storybook-addon-playwright": "^4.12.6",
     "webpack": "^5.73.0"
   }
 }
