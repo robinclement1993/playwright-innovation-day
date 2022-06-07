@@ -11788,7 +11788,7 @@ playwright-core@=1.17.2:
     yauzl "^2.10.0"
     yazl "^2.5.1"
 
-playwright@^1.14.0, playwright@^1.22.2:
+playwright@^1.14.0, playwright@^1.17.2:
   version "1.22.2"
   resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.22.2.tgz#353a7c29f89ca9600edc7a9a30aed790823c797d"
   integrity sha512-hUTpg7LytIl3/O4t0AQJS1V6hWsaSY5uZ7w1oCC8r3a1AQN5d6otIdCkiB3cbzgQkcMaRxisinjMFMVqZkybdQ==
