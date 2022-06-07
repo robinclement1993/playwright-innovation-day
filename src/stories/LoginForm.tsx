@@ -12,7 +12,7 @@ const LoginForm: React.FC = () => {
       <input type='email' data-testid="email" />
       <input type='password' data-testid="password" />
       <button onClick={() => setShowSuccess(true)}>Login</button>
-      {!showSucces && 
+      {showSucces && 
         <span>Everything is perfect. Your account is ready and we should probably get you started!</span>
       }
     </div>
