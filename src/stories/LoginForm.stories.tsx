@@ -14,6 +14,9 @@ export default {
   */
   title: 'Example/Form',
   component: LoginForm,
+  argTypes: {
+    disablePassword: { control: "boolean", defaultValue: "true" },
+  },
 } as ComponentMeta<typeof LoginForm>;
 
 const Template: ComponentStory<typeof LoginForm> = (args) => <LoginForm {...args} />;
@@ -34,9 +37,5 @@ FilledForm.play = async ({ canvasElement }) => {
   await userEvent.click(canvas.getByRole('button'));
 
   // 👇 Assert DOM structure
-  await expect(
-    canvas.getByText(
-      'Login successful!'
-    )
-  ).toBeInTheDocument();
+  await expect(canvas.getByText('Login successful!')).toBeInTheDocument();
 };
